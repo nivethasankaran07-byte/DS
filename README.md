@@ -617,7 +617,7 @@ Enter your choice: 4
 
 
 Ex(5) ---------------------------- OUTPUT
-~~~~BST MENU~~~~~
+``BST MENU```
 1. Create a BST
 2. Search
 3. BST Traversals: 
@@ -636,7 +636,7 @@ Enter the value: 7
 Enter the value: 8
 Enter the value: 5
 Enter the value: 2
-~~~~BST MENU~~~~~
+---BST MENU---
 1. Create a BST
 2. Search
 3. BST Traversals: 
@@ -645,7 +645,7 @@ Enter your choice: 3
 The Preorder display: 6 5 2 9 8 7 15 14 24 
 The Inorder display : 2 5 6 7 8 9 14 15 24 
 The Postorder display: 2 5 7 8 14 24 15 9 6 
-~~~~BST MENU~~~~~
+---BST MENU---
 1. Create a BST
 2. Search
 3. BST Traversals: 
@@ -653,7 +653,7 @@ The Postorder display: 2 5 7 8 14 24 15 9 6
 Enter your choice: 2
 Enter Element to be searched: 66
 Key element is not found in the BST
-~~~~BST MENU~~~~~
+---BST MENU---
 1. Create a BST
 2. Search
 3. BST Traversals: 
@@ -661,7 +661,7 @@ Key element is not found in the BST
 Enter your choice: 2
 Enter Element to be searched: 14
 Key element is present in BST
-~~~~BST MENU~~~~~
+----BST MENU----
 1. Create a BST
 2. Search
 3. BST Traversals: 
