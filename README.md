@@ -675,3 +675,146 @@ Preorder traversal of the constructed AVL tree is
 
 Preorder traversal after deletion of 10 
 9 5 0 -1 1 2 6 11
+
+Ex(7a) ---------------------------- OUTPUT
+
+Graph:
+ Adjacency list of vertex 0
+2 -> 1 -> NULL
+ Adjacency list of vertex 1
+3 -> 2 -> 0 -> NULL
+ Adjacency list of vertex 2
+3 -> 1 -> 0 -> NULL
+ Adjacency list of vertex 3
+2 -> 1 -> NULL
+BFS Traversal starting from vertex 0:
+Visited 0
+Visited 2
+Visited 1
+Visited 3
+
+
+Ex(7b) ---------------------------- OUTPUT
+
+Graph:
+ Adjacency list of vertex 0
+2 -> 1 -> NULL
+ Adjacency list of vertex 1
+3 -> 2 -> 0 -> NULL
+ Adjacency list of vertex 2
+3 -> 1 -> 0 -> NULL
+ Adjacency list of vertex 3
+2 -> 1 -> NULL
+DFS Traversal starting from vertex 0:
+Visited 0
+Visited 2
+Visited 3
+Visited 1
+
+
+Ex(8) ---------------------------- OUTPUT
+
+Enter the number of vertices: 5
+Enter the cost adjacency matrix (enter 999 for no direct path):
+0 10 5 999 999
+999 0 2 1 999
+999 3 0 9 2
+4 999 999 0 7
+999 999 999 6 0
+Enter the source vertex (starting from 0): 0
+Shortest Paths from Source Vertex 0:
+Path to vertex 1: Cost = 8 | Path = 1 <- 2 <- 0
+Path to vertex 2: Cost = 5 | Path = 2 <- 0
+Path to vertex 3: Cost = 9 | Path = 3 <- 1 <- 2 <- 0
+Path to vertex 4: Cost = 7 | Path = 4 <- 2 <- 0
+
+
+Ex(9) ---------------------------- OUTPUT
+
+Enter the size of the queue: 5
+Menu
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 1
+Enter the element to insert: 12
+Menu
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 1
+Enter the element to insert: 25
+Menu
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 1
+Enter the element to insert: 8
+Menu
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 3
+Elements in the heap: 8 12 25
+Menu
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 2
+The deleted element is 8
+Menu1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 4
+Exiting...
+
+
+Ex(10a) ---------------------------- OUTPUT
+
+-- Linear Search
+For the array arr = {12, 45, 67, 23, 56, 89, 9, 43} and searching for element 56:
+Enter the element to search: 56
+Element 56 found at position 5.
+
+For the array arr = {12, 45, 67, 23, 56, 89, 9, 43} and searching for element 100:
+Enter the element to search: 100
+Element 100 not found in the array.
+
+
+Ex(10b) ---------------------------- OUTPUT
+
+Enter the number of elements: 5
+Enter 5 numbers in ascending order:
+a[0]=2
+a[1]=3
+a[2]=4
+a[3]=10
+a[4]=40
+Enter the search element: 10
+Element 10 found at index 3.
+
+
+Ex(10c) ---------------------------- OUTPUT
+
+Enter the five elements to sort:
+5 4 3 2 1
+Elements after sorting:
+1
+2
+3
+4
+5
+
+
+Ex(10d) ---------------------------- OUTPUT
+
+Original array:
+12 7 11 13 5 6
+Sorted array:
+5 6 7 11 12 13
